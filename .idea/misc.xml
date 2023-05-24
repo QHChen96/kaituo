@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/kaituo-mq/pom.xml" />
         <option value="$PROJECT_DIR$/kaituo-mq/broker/pom.xml" />
         <option value="$PROJECT_DIR$/eventmesh/pom.xml" />
+        <option value="$PROJECT_DIR$/mq/pom.xml" />
+        <option value="$PROJECT_DIR$/kv/pom.xml" />
+        <option value="$PROJECT_DIR$/rpc/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="kaituo-mq-remoting" />
+        <module name="rpc" />
         <module name="kaituo-example" />
         <module name="kaituo-mq-common" />
+        <module name="kaituo-eventmesh" />
         <module name="kaituo-mq-broker" />
         <module name="kaituo-mq-client" />
-        <module name="kaituo-eventmesh" />
         <module name="kaituo-mq-naming" />
+        <module name="kaituo-kv" />
         <module name="kaituo-mq-ledger" />
       </profile>
     </annotationProcessing>
