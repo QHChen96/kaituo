@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kaituo-mq-remoting" />
+        <module name="kaituo-example" />
+        <module name="kaituo-mq-common" />
+        <module name="kaituo-mq-broker" />
+        <module name="kaituo-mq-client" />
+        <module name="kaituo-eventmesh" />
+        <module name="kaituo-mq-naming" />
+        <module name="kaituo-mq-ledger" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client" target="1.5" />
+      <module name="example" target="11" />
+      <module name="kaituo" target="11" />
+      <module name="kaituo-mq-namesrv" target="1.5" />
+      <module name="ledger" target="18" />
+      <module name="mq" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

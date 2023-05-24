@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <name>kaituo-mq</name>
+    <groupId>com.github.qhchen96</groupId>
+    <artifactId>kaituo-mq</artifactId>
+    <packaging>pom</packaging>
+    <version>${revision}</version>
+
+    <modules>
+        <module>broker</module>
+        <module>client</module>
+        <module>ledger</module>
+        <module>common</module>
+        <module>naming</module>
+        <module>remoting</module>
+    </modules>
+    <properties>
+        <revision>0.0.1</revision>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+
+    </dependencies>
+</project>
